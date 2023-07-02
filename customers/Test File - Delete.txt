@@ -2,7 +2,7 @@ First Name: Test
 Last Name: File
 Item: Delete
 Item Details: you can delete this
-Contact Information: ./customers/Test File | Delete
+Contact Information: ./customers/Test File - Delete.txt
 Birthday: 02/22/2000
 Extra Details:
 Delete this at any time
