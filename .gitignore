@@ -158,3 +158,9 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+#if you're reading through this, you can get all of these from
+#Javier- while the UI is slightly differnet it was based off of Javier
+#so i gitignored it for redudency sake
+solvent.ui
+updateUI.sh
+.vscode

@@ -1,0 +1,24 @@
+First Name: Test
+Last Name: File
+Item: Delete
+Item Details: you can delete this
+Contact Information: ./customers/Test File | Delete
+Birthday: 02/22/2000
+Extra Details:
+Delete this at any time
+it mainly exists
+to send the customers
+folder through.
+you don't have to keep it!
+but it also serves to show
+how the customer creator loads
+stuff into the editor.
+hope this helps!
+
+
+
+contact Neeko on discord
+if you have any troubles
+@neeko_iko
+
+enjoy solven't
