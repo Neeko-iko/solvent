@@ -123,10 +123,8 @@ class SolventGUI(QtWidgets.QWidget):
                 failstate = True
             if failstate:
                 return
-            filename = name + " | " + self.ui.brandEnter.text() + ".txt"
-            newfile = open(
-                "./customers/" + filename, "w"
-            )
+            filename = name + " - " + self.ui.brandEnter.text() + ".txt"
+            newfile = open("./customers/" + filename, "w")
         else:
             filename = self.ui.customerSelection.currentText()
             newfile = open(
