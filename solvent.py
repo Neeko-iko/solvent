@@ -4,6 +4,7 @@ try:
     import shiboken6
     from PySide6 import QtWidgets
     from PySide6.QtCore import QDate
+    from PySide6.QtWidgets import QStyleFactory
     import ui
 except ModuleNotFoundError as e:
     print("imports failed, see error")
@@ -144,7 +145,6 @@ class SolventGUI(QtWidgets.QWidget):
 
 app = QtWidgets.QApplication()
 widget = SolventGUI()
-
-
-widget.show()
-app.exec()
+app.setStyle(QStyleFactory.keys()[0])  # is this how it works????
+widget.show()  ## this is going off of a lot of assumptions, but it clearly isn't based off of
+app.exec()  # alphebetical order, so im going to assume this is relatively correct
